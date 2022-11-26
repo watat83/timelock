@@ -1,16 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 
-error NoDepositFoundError(bytes32 depositId);
-error NotValidTimeStampError(uint256 timestamp);
-error AlreadyQueuedError(bytes32 txId);
-error TimestampNotInRangeError(uint256 blockTimestamp, uint256 timestamp);
-error NotQueuedError(bytes32 txId);
-error TimestampNotPassedError(uint256 blockTimestmap, uint256 timestamp);
-error TimestampExpiredError(uint256 blockTimestamp, uint256 expiresAt);
-error TxFailedError();
-error NotOwner(string msg);
-
 contract Timelock {
     // Owner of the timelock contract
     address public owner;
