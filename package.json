@@ -1,0 +1,25 @@
+{
+  "name": "timelock",
+  "version": "1.0.0",
+  "description": "This project is an implementation of a Timelock Smart contract that helps delay the execution of another contract until a certain period of time has expired.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "timelock",
+    "Smart Contract",
+    "Ethereum",
+    "Blockchain"
+  ],
+  "author": "Christian M. Nzouatoum",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "@truffle/hdwallet-provider": "^2.1.2"
+  }
+}
